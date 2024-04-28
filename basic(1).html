@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap examples</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!--.container:class to create a responsive, fixed-width container
+        .container-fluid:class to create a full width container, that will always
+         span the entire width of the screen (width is always 100%)
+        .container pt-5 :top padding of 5 px--
+        .container-fluid my-5 border:creates a border>-->
+    <!--<div class=".container-fluid">this is the text in the container</div>-->
+    <a href="#bottom">Go to End of Page</a>
+    <div class="container pt-5">Hello</div>
+    <div class="container-fluid my-5 border">Hello</div>
+    <div class="container my-5 border bg-dark text-white">
+      Hello this is saritha
+    </div>
+    <!--4 equal columns with the size of 3 total(12)-->
+    <div class=".container-fluid">
+      <div class="row">
+        <div class="col-sm-3 p-3 bg-dark text-white">col1</div>
+        <div class="col-sm-3 p-3 bg-primary text-white">col1</div>
+        <div class="col-sm-3 p-3 bg-dark text-white">col1</div>
+        <div class="col-sm-3 p-3 bg-primary text-white">col1</div>
+      </div>
+    </div>
+    <br />
+    <!--unequal size of 4 and 8 total(12)-->
+    <div class="row">
+      <div class="col-sm-4 p-3 bg-dark text-white">col4</div>
+      <div class="col-sm-8 p-3 bg-primary text-white">col8</div>
+    </div>
+    <!--.h1 to .h6 classes on other elements to make them behave as headings-->
+    <div class="container mt-3">
+      <p class="h1">Heading1</p>
+      <p class="h2">Heading2</p>
+      <p class="h3">Heading3</p>
+      <p class="h4">Heading4</p>
+      <p class="h5">Heading5</p>
+      <p class="h6">Heading6</p>
+    </div>
+    <!--Display headings are used to stand out more than normal headings 
+        (larger font-size and lighter font-weight)-->
+    <div class="container mt-3">
+      <div class="display-1">display1</div>
+      <div class="display-2">display2</div>
+      <div class="display-3">display3</div>
+      <div class="display-4">display4</div>
+      <div class="display-5">display5</div>
+      <div class="display-6">display6</div>
+    </div>
+    <!--small element (and the .small class) is used to create a smaller, secondary text in any heading-->
+    <div class="container mt-3">
+      <h1>Heading1<small>saritha</small></h1>
+      <h2>Heading2<small>saritha</small></h2>
+      <h3>Heading3<small>saritha</small></h3>
+      <h4>Heading4<small>saritha</small></h4>
+      <h5>Heading5<small>saritha</small></h5>
+      <h6>Heading6<small>saritha</small></h6>
+    </div>
+    <!--mark:a yellow background color and some padding-->
+    <div class="container p-4 mt-3 bg-dark text-white">
+      <p>Hello this is <mark>saritha</mark></p>
+    </div>
+    <!--abbr:a dotted border bottom and a cursor with question mark on hover-->
+    <div class="container mt-3 bg-primary text-white p-5">
+      <p>
+        The <abbr title="World Health Organization">WHO </abbr> was found in
+        1948
+      </p>
+    </div>
+    <div class="container mt-3 bg-dark text-white">
+      <blockquote class="blockquote">
+        <p>
+          For 50 years, WWF has been protecting the future of nature. The
+          world's leading conservation organization, WWF works in 100 countries
+          and is supported by 1.2 million members in the United States and close
+          to 5 million globally.
+        </p>
+        <footer class="blockquote-footer">From WWF's website</footer>
+      </blockquote>
+    </div>
+    <!--Normal descriptive lists-->
+    <div class="container mt-4">
+      <dl>
+        <dt>IFS</dt>
+        <dd>Indian Foreign Service</dd>
+      </dl>
+    </div>
+    <div class="container mt-5">
+      <p>Hello <code>world </code>How <code>are</code> You????</p>
+      <p>press <kbd>ctrl+c</kbd> to copy</p>
+      <p>press <kbd>ctrl+s</kbd>to save</p>
+      <p>press<kbd>ctrl+u</kbd>to undo operation</p>
+    </div>
+    <div class="container mt-3 bg-dark text-white">
+      <p>multiple lines of codes</p>
+      <pre>
+            twinkle twinkle little star how i wonder 
+            what you are up and above in the sky
+             like a diamond in the sky
+      </pre>
+    </div>
+    <div class="container mt-5 bg-dark text-white">
+      <p>More typography classes</p>
+      <p class="lead">This paragraph stands out</p>
+      <p>This is a normal paragraph</p>
+      <p class="text-start">start</p>
+      <p class="text-end">end</p>
+      <p class="text-center">center</p>
+      <p class="text-nowrap">no wrap</p>
+      <p class="text-break">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
+        consequuntur reprehenderit, nesciunt beatae dolore numquam ea quia qui,
+        at modi voluptates eum quis explicabo quo suscipit et vero voluptatibus.
+      </p>
+      <p class="text-center">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque
+        consequuntur reprehenderit, nesciunt beatae dolore numquam ea quia qui,
+        at modi voluptates eum quis explicabo quo suscipit et vero voluptatibus.
+      </p>
+      <a href="#" class="text-decoration-none">Link without underline</a>
+      <p class="text-uppercase">uppercase</p>
+      <p class="text-lowecase">LOWERCASE</p>
+      <p class="text-capitalize">capitalized text</p>
+      <p>
+        The <abbr title="World Health Organization">WHO </abbr> was found in
+        1948(normal abbr)
+      </p>
+      <p>
+        The
+        <abbr title="World Health Organization" class="initialisim">WHO </abbr>
+        was found in 1948(slightly small compared to normal one)
+      </p>
+      <!--Removes the default list-style and left margin on list items (works on both <ul> and <ol>). 
+        This class only applies to immediate children list items 
+        (to remove the default list-style from any nested lists, apply this class to any nested lists as well)-->
+      <li>Coffee</li>
+      <li>
+        Tea
+        <ul class="list-unstyled">
+          <li>green tea</li>
+          <li>black tea</li>
+        </ul>
+      </li>
+      <li>Milk</li>
+      <br />
+      <!--items are in single line-->
+      <ul class="list-inline">
+        <li class="list-inline-item">Coffee</li>
+        <li class="list-inline-item">Tea</li>
+        <li class="list-inline-item">Milk</li>
+      </ul>
+    </div>
+    <div class="container mt-5">
+      <p class="text-muted">muted</p>
+      <p class="text-danger">danger</p>
+      <p class="text-secondary">secondary</p>
+      <p class="text-success">success</p>
+      <p class="text-info">info</p>
+      <p class="text-primary">primary</p>
+      <p class="text-dark">dark</p>
+      <p class="text-white">white</p>
+      <p class="text-warning">warning</p>
+      <p class="text-body">body</p>
+      <p class="text-light">light</p>
+    </div>
+    <div class="container mt-5">
+      <div class="bg-primary p-3"></div>
+      <div class="bg-dark p-3"></div>
+      <div class="bg-danger p-3"></div>
+      <div class="bg-success p-3"></div>
+      <div class="bg-info p-3"></div>
+    </div>
+    <!--table-responsive means it adds a scroll bar if the horizontal columns is very big-->
+    <!--table-repsonsive-sm/md/lg/xl/xxl-->
+    <div class="container mt-5 table-responsive">
+      <!-- adds zebra-stripes to a table:-->
+      <!-- <table class="table table-striped" border="5px solid">-->
+      <!-- table-bordered class adds borders on all sides of the table and the cells-->
+      <!--<table class="table table-bordered">-->
+      <!--table-hover class enables a hover state (grey background on mouse over)-->
+      <!-- <table class="table table-hover">-->
+      <!--table is borderless-->
+      <!--  <table class="table table-borderless">-->
+      <!--background of the table is dark and striped-->
+      <!--.table-sm class makes the table smaller by cutting cell padding in half-->
+      <table class="table table-dark table-striped table-hover table-sm">
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-primary">
+            <td>saritha</td>
+            <td>Raavi</td>
+            <td>sunny234@gmail.com</td>
+          </tr>
+          <tr class="table-danger">
+            <td>john</td>
+            <td>doe</td>
+            <td>jhn#@gmail.com</td>
+          </tr>
+          <tr class="table-success">
+            <td>alfred</td>
+            <td>chris</td>
+            <td>chris@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--Image borders is rounded(class=rounded)
+    (class=rounded-circle) image is rounded
+    (class=img-thumbnail) creates thumbnail for the image-->
+    <div class="container mt-3">
+      <img
+        src="images/food.avif"
+        class="rounded-circle"
+        alt="foodimage"
+        width="500px"
+        height="500px"
+      />
+    </div>
+    <div class="container mt-3">
+      <!--to left-->
+      <img
+        src="images/food.avif"
+        class="float-start"
+        height="100px"
+        width="100px"
+      />
+      <!--to right-->
+      <img
+        src="images/food.avif"
+        class="float-end"
+        height="100px"
+        width="100px"
+      />
+    </div>
+    <div class="container">
+      <!--.img-fluid class applies max-width: 100%; and height: auto-->
+      <img src="images/food.avif" class="img-fluid" />
+    </div>
+    <!--Jumbotron-->
+    <p>An example of Jumbotron</p>
+    <div class="container">
+      <div class="mt-5 p-3 bg-primary text-white rounded">
+        <h4>JUMBOTRON</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+          soluta, aspernatur commodi quia necessitatibus laudantium iusto
+          labore. Esse iusto quis ut commodi laborum, sapiente, neque ullam aut,
+          saepe similique hic?
+        </p>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="alert alert-success">
+        <strong>Success!!!</strong>this indicates successfull or positive action
+        read <a href="#" class="alert-link">this</a>
+      </div>
+      <div class="alert alert-danger">
+        <strong>DANGER</strong> this indicates dangerous or negative action read
+        <a href="#" class="alert-link">this</a>
+      </div>
+      <div class="alert alert-info">
+        <strong>INFO</strong>this provides some info about something read
+        <a href="#" class="alert-link">this</a>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <h2>Alerts</h2>
+      <p>
+        The button with class="btn-close" and data-bs-dismiss="alert" is used to
+        close the alert box.
+      </p>
+      <p>The alert-dismissible class aligns the button to the right.</p>
+      <div class="alert alert-success alert-dismissable fade show">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+        ></button>
+        this indicates success
+      </div>
+      <div class="alert alert-info alert-dismissable fade show">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+        ></button>
+        this indicates info
+      </div>
+      <div class="alert alert-danger alert-dismissable fade show">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+        ></button>
+        this indicates danger
+      </div>
+    </div>
+    <div class="container">
+      <button type="button" class="btn btn-primary btn-lg">Primary</button>
+      <button type="button" class="btn btn-dark btn-md">dark</button>
+      <button type="button" class="btn btn-success btn-sm">Info</button>
+      <button type="button" class="btn btn-outline-primary">primary</button>
+      <button type="button" class="btn btn-outline-danger">danger</button>
+      <button type="button" class="btn btn-outline-dark">dark</button>
+      <button type="button" class="btn btn-outline-info">info</button>
+    </div>
+    <div class="container mt-3">
+      <div class="d-grid gap-3">
+        <button type="button" class="btn btn-primary btn-block">
+          FULL WIDTH BUTTON
+        </button>
+        <button type="button" class="btn btn-primary btn-block">
+          FULL WIDTH BUTTON
+        </button>
+        <button type="button" class="btn btn-primary btn-block">
+          FULL WIDTH BUTTON
+        </button>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <button type="button" class="btn btn-primary active">active</button>
+      <button type="button" class="btn btn-primary" disabled>disabled</button>
+      <button type="button" class="btn btn-primary">
+        <span class="spinner-border spinner-border-sm"></span>Loading.....
+      </button>
+      <button type="button" class="btn btn-primary">
+        <span class="spinner-grow spinner-grow-sm"></span>Loading.....
+      </button>
+    </div>
+    <div class="container mt-3">
+      <h1>heading1<span class="badge bg-secondary">NEW</span></h1>
+      <h2>heading2<span class="badge bg-secondary">NEW</span></h2>
+      <h3>heading<span class="badge bg-secondary">NEW</span></h3>
+    </div>
+    <div class="container mt-3">
+      <span class="badge bg-primary">primary</span>
+      <span class="badge bg-dark">dark</span>
+      <span class="badge rounded-pill bg-success">success</span>
+      <span class="badge rounded-pill bg-danger">danger</span>
+      <button type="button" class="bg-danger">
+        button
+        <span class="badge bg-info">7</span>
+      </button>
+    </div>
+    <div class="container">
+      <div class="btn-group btn-group-lg">
+        <button type="button" class="bg-primary">button1</button>
+        <button type="button" class="bg-primary">button2</button>
+        <button type="button" class="bg-primary">button3</button>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="btn-group-vertical">
+        <button type="button" class="bg-primary">button1</button>
+        <button type="button" class="bg-primary">button2</button>
+        <button type="button" class="bg-primary">button3</button>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="btn-group">
+        <button
+          type="button"
+          class="btn btn-primary dropdown-toggle"
+          data-bs-toggle="dropdown"
+        >
+          sony
+        </button>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item">Tablet</a>
+          <a href="#" class="dropdown-item">Smartphone</a>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="progress">
+        <div class="progress-bar" style="width: 70%">70%</div>
+      </div>
+      <br />
+      <div class="progress">
+        <div class="progress-bar bg-info" style="width: 25%">25%</div>
+      </div>
+      <br />
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped" style="width: 50%">
+          50%
+        </div>
+      </div>
+      <br />
+      <div class="progress">
+        <div
+          class="progress-bar bg-dark progress-bar-striped progress-bar-animated"
+          style="width: 50%"
+        >
+          50%
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="progress">
+        <div class="progress-bar bg-success" style="width: 40%">freespace</div>
+        <div class="progress-bar bg-warning" style="width: 10%">warning</div>
+        <div class="progress-bar bg-danger" style="width: 20%">danger</div>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="spinner-border"></div>
+      <div class="spinner-border spinner-border-sm"></div>
+      <div class="spinner-grow spinner-grow-sm"></div>
+      <div class="spinner-border text-muted"></div>
+      <div class="spinner-border text-danger"></div>
+      <div class="spinner-border text-success"></div>
+      <div class="spinner-grow text-info"></div>
+      <div class="spinner-grow text-secondary"></div>
+    </div>
+    <!--f you have a web site with lots of pages(adding pagination to each page)-->
+    <div class="container">
+      <ul class="pagination pagination-sm">
+        <li class="page-item disabled">
+          <a class="page-link" href="#">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">Middle</a></li>
+        <li class="page-item active"><a class="page-link" href="#">Next</a></li>
+      </ul>
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">Middle</a></li>
+        <li class="page-item active"><a class="page-link" href="#">Next</a></li>
+      </ul>
+      <ul class="pagination justify-content-end">
+        <li class="page-item disabled">
+          <a class="page-link" href="#">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">Middle</a></li>
+        <li class="page-item active"><a class="page-link" href="#">Next</a></li>
+      </ul>
+      <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">ENGLAND</a></li>
+        <li class="breadcrumb-item"><a href="#">USA</a></li>
+        <li class="breadcrumb-item"><a href="#">FRANCE</a></li>
+      </ul>
+    </div>
+    <!--list groups-->
+    <div class="container">
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-action">HOLA</li>
+        <li class="list-group-item active">HELLO</li>
+        <li class="list-group-item disabled">MERHABA</li>
+      </ul>
+    </div>
+    <!--list-group is to remove the borders and rounded corners-->
+    <div class="container mt-3">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">SUNDAY</li>
+        <li class="list-group-item">MONDAY</li>
+        <li class="list-group-item">TUESDAY</li>
+      </ul>
+    </div>
+    <div class="container mt-3">
+      <ul class="list-group list-group-numbered">
+        <li class="list-group-item">SUNDAY</li>
+        <li class="list-group-item">MONDAY</li>
+        <li class="list-group-item">TUESDAY</li>
+      </ul>
+    </div>
+    <div class="container mt-3">
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item list-group-item-success">SUNDAY</li>
+        <li class="list-group-item list-group-item-danger">MONDAY</li>
+        <li class="list-group-item list-group-item-info">TUESDAY</li>
+      </ul>
+    </div>
+    <div class="container mt-3">
+      <a
+        href="#"
+        class="list-group-item list-group-item-action list-group-item-success"
+        >Success item</a
+      >
+      <a
+        href="#"
+        class="list-group-item list-group-item-action list-group-item-danger"
+        >Danger</a
+      >
+    </div>
+    <div class="container">
+      <ul class="list-group">
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          info
+          <span class="badge bg-primary rounded-pill">12</span>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          adds
+          <span class="badge bg-info rounded-pill">13</span>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          junk
+          <span class="badge bg-primary rounded-pill">14</span>
+        </li>
+      </ul>
+    </div>
+    <div class="container mt-3">
+      <div class="card">BASIC</div>
+      <div class="card-header">header</div>
+      <div class="card-body">body</div>
+      <div class="card-footer">footer</div>
+      <div class="card bg-primary text-white">
+        <div class="card-body">primary text</div>
+      </div>
+      <div class="card bg-dark text-white">
+        <div class="card-body">dark text</div>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="card-body">
+        <h2 class="card-title">card-title</h2>
+        <p class="card-text">card-text</p>
+        <a href="#" class="card-link">card-link</a>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="card">
+        <img
+          class="img-card-top"
+          src="images/food.avif"
+          style="height: 100px; width: 100px"
+          alt="food image"
+        />
+        <div class="card-body">
+          <h4 class="card-title">Food</h4>
+          <p class="card-text">Delicious food</p>
+          <a href="#" class="btn btn-primary">order that</a>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="card">
+        <img
+          class="img-card-top"
+          src="images/food.avif"
+          style="height: 200px; width: 200px"
+          alt="food image"
+        />
+        <div class="card-img-overlay">
+          <h4 class="card-title">Food</h4>
+          <p class="card-text">Delicious food</p>
+          <br />
+          <a href="#" class="btn btn-primary">order that</a>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-3">
+      <div class="dropdown dropend">
+        <button
+          type="button"
+          class="btn btn-dark dropdown-toggle"
+          data-bs-toggle="dropdown"
+        >
+          Dropdown
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">link1</li>
+          <li class="dropdown-item active">link2</li>
+          <li><a href="#" class="dropdown-item disabled">link3</a></li>
+          <li class="dropdown-divider"></li>
+          <li><a href="#" class="dropdown-item">another link</a></li>
+          <h4 class="dropdown-header">dropdown-header</h4>
+        </ul>
+      </div>
+      <div class="dropdown dropstart">
+        <button
+          type="button"
+          class="btn btn-dark dropdown-toggle"
+          data-bs-toggle="dropdown"
+        >
+          Dropdown
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">link1</li>
+          <li class="dropdown-item active">link2</li>
+          <li><a href="#" class="dropdown-item disabled">link3</a></li>
+          <li class="dropdown-divider"></li>
+          <li><a href="#" class="dropdown-item">another link</a></li>
+          <h4 class="dropdown-header">dropdown-header</h4>
+        </ul>
+      </div>
+      <!--.dropdown-menu to right-align the dropdown menu.-->
+      <div class="dropdown dropdown-menu-end">
+        <button
+          type="button"
+          class="btn btn-dark dropdown-toggle"
+          data-bs-toggle="dropdown"
+        >
+          Wide dropdown button to demonstrate this example
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">link1</li>
+          <li class="dropdown-item active">link2</li>
+          <li><a href="#" class="dropdown-item disabled">link3</a></li>
+          <li class="dropdown-divider"></li>
+          <li><a href="#" class="dropdown-item">another link</a></li>
+          <h4 class="dropdown-header">dropdown-header</h4>
+        </ul>
+      </div>
+    </div>
+    <!--Collapsibles are useful when you want to hide and show large amount of content-->
+    <div class="container mt-3">
+      <button
+        type="button"
+        class="btn btn-dark"
+        data-bs-toggle="collapse"
+        data-bs-target="#demo"
+      >
+        collapse
+      </button>
+      <br />
+      <a
+        href="#"
+        class="btn btn-primary"
+        data-bs-toggle="collapse-show"
+        data-bs-target="#demo"
+        >simple collapse</a
+      >
+      <div id="demo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero maxime
+        quae quaerat porro, perspiciatis, itaque aperiam, iste ab qui quam
+        repudiandae odit quas atque assumenda asperiores quo ut laudantium
+        officia!
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+              Collapsible Group Item #1
+            </a>
+          </div>
+          <div
+            id="collapseOne"
+            class="collapse show"
+            data-bs-parent="#accordion"
+          >
+            <div class="card-body">Lorem ipsum..</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a
+              class="collapsed btn"
+              data-bs-toggle="collapse"
+              href="#collapseTwo"
+            >
+              Collapsible Group Item #2
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">Lorem ipsum..</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a
+              class="collapsed btn"
+              data-bs-toggle="collapse"
+              href="#collapseThree"
+            >
+              Collapsible Group Item #3
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body">Lorem ipsum..</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
